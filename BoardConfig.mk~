@@ -32,7 +32,7 @@ TARGET_SPECIFIC_HEADER_PATH := device/htc/buzz/include
 
 # ARMv6-compatible processor rev 5 (v6l)
 TARGET_BOARD_PLATFORM := msm7k
-TARGET_ARCH=arm
+TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv6j
 TARGET_CPU_ABI := armeabi-v6j
 TARGET_CPU_ABI2 := armeabi
@@ -63,7 +63,7 @@ WIFI_BAND                        := 802_11_ABG
 
 ## kernel
 TARGET_KERNEL_CONFIG   		:= buzz_defconfig
-# TARGET_PREBUILT_KERNEL 		:= device/htc/buzz/prebuilt/kernel
+# TARGET_PREBUILT_KERNEL 	:= device/htc/buzz/prebuilt/kernel
 TARGET_RECOVERY_INITRC 		:= device/htc/buzz/initramfs/init.recovery.rc
 TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/buzz/prebuilt/recovery_kernel
 
@@ -164,5 +164,5 @@ TARGET_SCREEN_WIDTH := 240
 
 # FM radio support
 BOARD_HAVE_FM_RADIO 	:= true
-BOARD_FM_DEVICE 	:= bcm4325
+BOARD_FM_DEVICE 	:= bcm4329
 BOARD_GLOBAL_CFLAGS += -DHAVE_FM_RADIO
